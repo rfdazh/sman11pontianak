@@ -1,0 +1,105 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.animationbuttontop:hover {
+  background-color: #034113;
+}
+
+.hoverdropdown {
+  font-weight: 500;
+  color: beige;
+}
+
+.hoverdropdown:hover {
+  background-color: #034112c4;
+}
+
+.buttonclick1 {
+  border-radius: 20px;
+  border: 1px solid beige;
+  text-decoration: none;
+  color: beige;
+  background-color: rgba(245, 222, 179, 0);
+}
+
+.buttonclick1:hover {
+  background-color: #034113;
+}
+
+.buttonclick2 {
+  border-radius: 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(245, 222, 179, 0);
+}
+
+.buttonclick2:hover {
+  background-color: rgb(32, 178, 170);
+}
+
+.buttonclick {
+  border-radius: 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(129, 230, 14, 0);
+  padding: 10px;
+}
+
+.buttonclick:hover {
+  background-color: rgb(32, 178, 170);
+}
+
+.galerifotokegiatan {
+  border-radius: 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.galerisekolah {
+  background-color: red;
+}
+
+.spananimasi1 {
+  font-size: 18px;
+  color: beige;
+}
+
+.spananimasi2 {
+  font-size: 18px;
+  color: greenyellow;
+}
+
+.potong {
+  background-color: #0b6623;
+  width: 95%;
+  margin-top: -80px;
+  position: relative;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .potong {
+    margin-top: -25px;
+  }
+}
+
+
+.submitbtn {
+  background-color: rgba(0, 128, 0, 0.769);
+  color: beige;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.submitbtn:hover {
+  background-color: #034113;
+}
